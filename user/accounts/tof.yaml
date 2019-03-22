@@ -1,0 +1,11 @@
+email: m.ch55000@gmail.com
+fullname: Christophe
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$yx60aTIA3oZqWWYQ6k.yQuLqvzyv6jaGqh5h3qGqfIdGfNtKrEVNO
