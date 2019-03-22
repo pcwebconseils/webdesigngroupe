@@ -1,20 +1,8 @@
 ---
-title: One Page Demo Site
-menu: Home
-onpage_menu: true
-body_classes: "modular header-image fullwidth"
-
-content:
-    items: '@self.modular'
-    order:
-        by: default
-        dir: asc
-        custom:
-            - _achievements
-            - _team
-            - _blog
-            - _contact
-            - _offer
-            - _presentation
-            - _references
+title: Homepage Achievements
+image_align: right
 ---
+
+## Content Unchained
+
+No longer are you a _slave to your CMS_. Grav **empowers** you to create anything from a [simple one-page site](#), a [beautiful blog](#), a powerful and feature-rich [product site](#), or pretty much anything you can dream up!

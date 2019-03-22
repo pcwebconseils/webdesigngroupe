@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb0a0a11-5940-448f-80b2-80df38fc376b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/modular/default.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.home/_achievements/default.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/grav.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/grav.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pages/01.home/modular.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,11 +43,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-304" />
+              <first_editor relative-caret-position="322">
+                <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              </first_editor>
               <second_editor />
             </state>
           </provider>
@@ -58,16 +59,25 @@
         <entry file="file://$PROJECT_DIR$/user/pages/01.home/_achievements/default.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="306">
-                <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              <first_editor>
+                <caret selection-end-line="19" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/modular/default.html.twig">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -81,16 +91,6 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -102,6 +102,8 @@
         <option value="$PROJECT_DIR$/user/config/system.yaml" />
         <option value="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/user/pages/01.home/_achievements/default.md" />
+        <option value="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/modular.md" />
       </list>
     </option>
   </component>
@@ -178,6 +180,21 @@
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="01.home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="01.home" type="462c0819:PsiDirectoryNode" />
+              <item name="_achievements" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -194,6 +211,15 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="wdgdesign" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wdgdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="modular" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
@@ -218,6 +244,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\grav\webdesign\grav-admin\user\themes\wdgdesign\templates\modular" />
       <recent name="C:\wamp64\www\grav\webdesign\grav-admin\user\pages\01.home\_achievements" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -246,7 +273,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553241770128</updated>
-      <workItem from="1553241771601" duration="5894000" />
+      <workItem from="1553241771601" duration="6478000" />
     </task>
     <task id="LOCAL-00001" summary="Init project Webdesign with Grav CMS">
       <created>1553242250099</created>
@@ -269,15 +296,21 @@
       <option name="project" value="LOCAL" />
       <updated>1553243647867</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Creat theme wdgdesign">
+      <created>1553250210810</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1553250210811</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5894000" />
+    <option name="totallyTimeSpent" value="6478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
@@ -396,26 +429,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-304" />
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/modular/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/01.home/_achievements/default.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="306">
-            <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <first_editor>
+            <caret selection-end-line="19" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
