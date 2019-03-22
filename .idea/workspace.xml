@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0a0a11-5940-448f-80b2-80df38fc376b" name="Default Changelist" comment="Creat cache and first user">
+    <list default="true" id="cb0a0a11-5940-448f-80b2-80df38fc376b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user/pages/01.home/modular.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8af1dd538500d67a3595e40bb4a0b38d.yaml.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cabfcd504dd2b9678137b51e9a1bacaf.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/cabfcd504dd2b9678137b51e9a1bacaf.yaml.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-03b83945.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/20/206208999020b7180d5b1d8a7f6850cb85c44b51a0f3674328c059eee62f03bd.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/3e/3e14f981d8dc9b455da531daf4e36727c5bc32f6eb33906ff61d535d6f843112.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/45/45b7469bd8fd89fdf9a594b0a4c13f984e146470b046fd8844be3edf5e66df65.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/49/49f60704e7f19dd5d0078aef6c7945e72bf06f9ec1078cc09dadc37794f1719a.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/6d/6dcdc59de5338aea2192648ae13dca69c91adbff11bcc3e3131591fe499b4fd6.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/82/824c90966ade4131aacb9c2dc87bc923fdd4231aa2a645ef7f24bee20019c41f.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/a3/a3f6a84299c2ba242db5a23fe770fa0a5fd1a8f7c564694c5daa618ab77c39d0.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/b1/b1c655a899292f057d7ad51575c3d3418f3a9e583aeb1a8b096d62b6ae0283b2.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/e2/e25aff19b8779e0a5daea91f74e638cb639410a92d2e6f7a33377284a0ac81fb.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/f7/f7de0584c2da2e5eb1129ab88e12675dbce04acaa436d4c20e1c31cd28c14be5.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/fb/fbce364e580606a014abd1bdb08d5df50d63bf99356602e8c8d5e2623b46d93a.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.home/_achievements/default.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,20 +20,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/wdgdesign.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/wdgdesign.yaml">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/default.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-304" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/pages/01.home/_achievements/default.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="306">
+                <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/navigation.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/metadata.html.twig">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/user/config/system.yaml" />
+        <option value="$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/01.home/_achievements/default.md" />
+      </list>
+    </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -114,19 +172,37 @@
               <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="accounts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
-              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wdgdesign" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wdgdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="grav-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="grav-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="wdgdesign" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -139,6 +215,14 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\grav\webdesign\grav-admin\user\pages\01.home\_achievements" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\grav\webdesign\grav-admin\user\pages\01.home" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -162,7 +246,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553241770128</updated>
-      <workItem from="1553241771601" duration="1642000" />
+      <workItem from="1553241771601" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="Init project Webdesign with Grav CMS">
       <created>1553242250099</created>
@@ -178,22 +262,30 @@
       <option name="project" value="LOCAL" />
       <updated>1553243099665</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Creat theme wdgdesign">
+      <created>1553243647867</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553243647867</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1642000" />
+    <option name="totallyTimeSpent" value="5894000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -211,17 +303,118 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="Init project Webdesign with Grav CMS" />
     <MESSAGE value="Creat cache and first user" />
-    <option name="LAST_COMMIT_MESSAGE" value="Creat cache and first user" />
+    <MESSAGE value="Creat theme wdgdesign" />
+    <option name="LAST_COMMIT_MESSAGE" value="Creat theme wdgdesign" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1902" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/blueprints.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/thumbnail.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/screenshot.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/wdgdesign.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/wdgdesign.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/default.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/navigation.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/metadata.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/modular.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-304" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.home/_achievements/default.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="306">
+            <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/wdgdesign/templates/partials/modular.html.twig">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
