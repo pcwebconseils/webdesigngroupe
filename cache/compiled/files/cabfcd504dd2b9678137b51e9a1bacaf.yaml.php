@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav/webdesign/grav-admin/user/config/system.yaml',
-    'modified' => 1553199618,
+    'modified' => 1553243476,
     'data' => [
         'absolute_urls' => false,
         'home' => [
             'alias' => '/home'
         ],
         'pages' => [
-            'theme' => 'quark',
+            'theme' => 'wdgdesign',
             'markdown' => [
                 'extra' => false
             ],

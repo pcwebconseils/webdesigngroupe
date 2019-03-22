@@ -1,0 +1,9 @@
+<?php
+return [
+    '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
+    'filename' => 'C:/wamp64/www/grav/webdesign/grav-admin/user/plugins/devtools/devtools.yaml',
+    'modified' => 1553243130,
+    'data' => [
+        'enabled' => true
+    ]
+];
