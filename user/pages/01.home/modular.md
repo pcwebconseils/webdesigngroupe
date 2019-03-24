@@ -7,9 +7,8 @@ body_classes: "modular header-image fullwidth"
 content:
     items: '@self.modular'
     order:
-        by: default
-        dir: asc
-        custom:
+         custom:
+            - _callout
             - _achievements
             - _team
             - _blog
