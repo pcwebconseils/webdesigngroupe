@@ -1,5 +1,5 @@
 ---
-title: One Page Demo Site
+title: WebDesignGroupe l'Agence du Digitale
 menu: Home
 onpage_menu: true
 body_classes: "modular header-image fullwidth"

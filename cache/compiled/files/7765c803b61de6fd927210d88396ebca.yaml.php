@@ -2,15 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp64/www/grav/webdesign/grav-admin/user/config/site.yaml',
-    'modified' => 1553199618,
+    'modified' => 1553433781,
     'data' => [
         'title' => 'Grav',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@example.com'
+            'name' => 'CATA',
+            'email' => 'm.ch55000@gmail.com'
         ],
         'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+            'description' => 'WebdesignGroupe.fr est un site de présentation pour projet d étude sur la ville de Cholet avec des étudiants OC',
+            'title' => 'webdesignGroupe, la nouvelle agence digitale de Cholet',
+            'robots' => 'noindex, nofollow',
+            'url' => 'http://webdesigngroup.fr'
         ]
     ]
 ];

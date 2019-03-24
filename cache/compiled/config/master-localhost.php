@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1553243509,
-    'checksum' => '6c75c31894c6fbef4cc5441bfc8f588e',
+    'timestamp' => 1553433781,
+    'checksum' => '97027cde218d943029777e7efbb57fd5',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1553199618
+                'modified' => 1553433781
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -574,15 +574,18 @@ return [
             'title' => 'Grav',
             'default_lang' => 'en',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'CATA',
+                'email' => 'm.ch55000@gmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',
                 1 => 'tag'
             ],
             'metadata' => [
-                'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+                'description' => 'WebdesignGroupe.fr est un site de présentation pour projet d étude sur la ville de Cholet avec des étudiants OC',
+                'title' => 'webdesignGroupe, la nouvelle agence digitale de Cholet',
+                'robots' => 'noindex, nofollow',
+                'url' => 'http://webdesigngroup.fr'
             ],
             'summary' => [
                 'enabled' => true,
