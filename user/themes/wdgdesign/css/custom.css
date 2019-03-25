@@ -10,6 +10,7 @@
     /*!*line-height: 1.7;*!*/
     /*color: #606d6e;*/
 /*}*/
+
 h1,
 h2,
 h3,
@@ -75,12 +76,12 @@ a:hover {
 }
 
 .header {
-    background-color: blue;
+    background-color: #1F8DD6;
     color: #eee;
 }
 
 .header a {
-    color: blueviolet;
+    color: #fff;
 }
 
 .header .logo {
@@ -188,74 +189,4 @@ a:hover {
     border-top-left-radius: 10px;
     border-bottom-left-radius: 3000px;
     border-bottom-right-radius: 1000px;
-}
-
-html,body{
-    padding: 0;
-    margin: 0;
-}
-.toggle_btn{
-    height: 30px;
-    width: 30px;
-    position:relative;
-    float: right;
-    margin-right: 20px;
-    margin-top: 50px;
-    cursor: pointer;
-}
-.toggle_btn span{
-    height: 3px;
-    background-color: #00cc00;
-    width: 100%;
-    position: absolute;
-    top: -10px;
-    left:0;
-}
-
-.toggle_btn span:before{
-    content: '';
-    height: 3px;
-    background-color: #00cc00;
-    width: 100%;
-    position: absolute;
-    top: -10px;
-    left:0;
-}
-.toggle_btn span:after{
-    content: '';
-    height: 3px;
-    background-color: #00cc00;
-    width:100%;
-    position: absolute;
-    top: 10px;
-    left:0;
-}
-.menu {
-    height: 1000px;
-    background-color: #00cc00;
-    width: 200px;
-
-}
-.menu a{
-    color:white;
-    font-family: sans-serif;
-    text-align: center;
-    display: block;
-    padding-top: 30px;
-    text-decoration: none;
-
-}
-.logo {
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 24px;
-}
-.nav{
-    magin-left:-200px;
-    transition-duration: 0.3s;
-}
-
-.nav_open{
-    magin-left:0;
-    transition-duration: 0.3s;
 }
