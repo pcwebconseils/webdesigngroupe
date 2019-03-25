@@ -22,8 +22,10 @@
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 100) %}
-    {% endblock %}
+        {% do assets.addJs('jquery', 100)%}
+    {% do assets.addJs('theme://js/app.js')%}
+
+        {% endblock %}
     {{ assets.js() }}
 
 {% endblock head%}
@@ -31,19 +33,8 @@
 <body id="top" class="{{ page.header.body_classes }}">
 
 {% block header %}
-    <div class="header">
-        <div class="wrapper padding">
-            <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
-                <i class="fa fa-rebel"></i>
-                {{ config.site.title }}
-            </a>
-            {% block header_navigation %}
-            <nav class="main-nav">
-                {% include 'partials/navigation.html.twig' %}
-            </nav>
-            {% endblock %}
-        </div>
-    </div>
+        {% include 'partials/header.html.twig' %}
+
 {% endblock %}
 
 {% block body %}

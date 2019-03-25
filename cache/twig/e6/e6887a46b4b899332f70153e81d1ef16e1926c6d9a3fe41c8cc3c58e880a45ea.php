@@ -25,7 +25,6 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
             'stylesheets' => [$this, 'block_stylesheets'],
             'javascripts' => [$this, 'block_javascripts'],
             'header' => [$this, 'block_header'],
-            'header_navigation' => [$this, 'block_header_navigation'],
             'body' => [$this, 'block_body'],
             'content' => [$this, 'block_content'],
             'footer' => [$this, 'block_footer'],
@@ -47,32 +46,32 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
 ";
         // line 5
         $this->displayBlock('head', $context, $blocks);
-        // line 30
+        // line 32
         echo "</head>
 <body id=\"top\" class=\"";
-        // line 31
+        // line 33
         echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", []), "body_classes", []);
         echo "\">
 
 ";
-        // line 33
+        // line 35
         $this->displayBlock('header', $context, $blocks);
-        // line 48
+        // line 39
         echo "
 ";
-        // line 49
+        // line 40
         $this->displayBlock('body', $context, $blocks);
-        // line 56
+        // line 47
         echo "
 ";
-        // line 57
+        // line 48
         $this->displayBlock('footer', $context, $blocks);
-        // line 64
+        // line 55
         echo "
 ";
-        // line 65
+        // line 56
         $this->displayBlock('bottom', $context, $blocks);
-        // line 68
+        // line 59
         echo "
 </body>
 </html>
@@ -120,7 +119,7 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
     ";
         // line 24
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 27
+        // line 29
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [], "method");
         echo "
@@ -153,70 +152,47 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
         $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "jquery", 1 => 100], "method");
         // line 26
         echo "    ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", [0 => "theme://js/app.js"], "method");
+        // line 27
+        echo "
+        ";
     }
 
-    // line 33
+    // line 35
     public function block_header($context, array $blocks = [])
     {
-        // line 34
-        echo "    <div class=\"header\">
-        <div class=\"wrapper padding\">
-            <a class=\"logo left\" href=\"";
         // line 36
-        echo (((($context["base_url"] ?? null) == "")) ? ("/") : (($context["base_url"] ?? null)));
-        echo "\">
-                <i class=\"fa fa-rebel\"></i>
-                ";
-        // line 38
-        echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "site", []), "title", []);
+        echo "        ";
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 36)->display($context);
+        // line 37
         echo "
-            </a>
-            ";
-        // line 40
-        $this->displayBlock('header_navigation', $context, $blocks);
-        // line 45
-        echo "        </div>
-    </div>
 ";
     }
 
     // line 40
-    public function block_header_navigation($context, array $blocks = [])
-    {
-        // line 41
-        echo "            <nav class=\"main-nav\">
-                ";
-        // line 42
-        $this->loadTemplate("partials/navigation.html.twig", "partials/base.html.twig", 42)->display($context);
-        // line 43
-        echo "            </nav>
-            ";
-    }
-
-    // line 49
     public function block_body($context, array $blocks = [])
     {
-        // line 50
+        // line 41
         echo "    <section id=\"body\">
         <div class=\"wrapper padding\">
         ";
-        // line 52
+        // line 43
         $this->displayBlock('content', $context, $blocks);
-        // line 53
+        // line 44
         echo "        </div>
     </section>
 ";
     }
 
-    // line 52
+    // line 43
     public function block_content($context, array $blocks = [])
     {
     }
 
-    // line 57
+    // line 48
     public function block_footer($context, array $blocks = [])
     {
-        // line 58
+        // line 49
         echo "    <div class=\"footer text-center\">
         <div class=\"wrapper padding\">
             <p><a href=\"http://getgrav.org\">Grav</a> was <i class=\"fa fa-code\"></i> with <i class=\"fa fa-heart\"></i> by <a href=\"http://www.rockettheme.com\">RocketTheme</a>.</p>
@@ -225,10 +201,10 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
 ";
     }
 
-    // line 65
+    // line 56
     public function block_bottom($context, array $blocks = [])
     {
-        // line 66
+        // line 57
         echo "    ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", [0 => "bottom"], "method");
         echo "
@@ -247,7 +223,7 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
 
     public function getDebugInfo()
     {
-        return array (  232 => 66,  229 => 65,  220 => 58,  217 => 57,  212 => 52,  206 => 53,  204 => 52,  200 => 50,  197 => 49,  192 => 43,  190 => 42,  187 => 41,  184 => 40,  178 => 45,  176 => 40,  171 => 38,  166 => 36,  162 => 34,  159 => 33,  155 => 26,  152 => 25,  149 => 24,  144 => 20,  141 => 19,  138 => 18,  135 => 17,  132 => 16,  124 => 27,  122 => 24,  116 => 22,  114 => 16,  109 => 14,  105 => 13,  102 => 12,  100 => 11,  89 => 7,  86 => 6,  83 => 5,  76 => 68,  74 => 65,  71 => 64,  69 => 57,  66 => 56,  64 => 49,  61 => 48,  59 => 33,  54 => 31,  51 => 30,  49 => 5,  44 => 3,  41 => 2,  39 => 1,);
+        return array (  208 => 57,  205 => 56,  196 => 49,  193 => 48,  188 => 43,  182 => 44,  180 => 43,  176 => 41,  173 => 40,  168 => 37,  165 => 36,  162 => 35,  157 => 27,  154 => 26,  151 => 25,  148 => 24,  143 => 20,  140 => 19,  137 => 18,  134 => 17,  131 => 16,  123 => 29,  121 => 24,  115 => 22,  113 => 16,  108 => 14,  104 => 13,  101 => 12,  99 => 11,  88 => 7,  85 => 6,  82 => 5,  75 => 59,  73 => 56,  70 => 55,  68 => 48,  65 => 47,  63 => 40,  60 => 39,  58 => 35,  53 => 33,  50 => 32,  48 => 5,  43 => 3,  40 => 2,  38 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -284,8 +260,10 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
     {{ assets.css() }}
 
     {% block javascripts %}
-        {% do assets.addJs('jquery', 100) %}
-    {% endblock %}
+        {% do assets.addJs('jquery', 100)%}
+    {% do assets.addJs('theme://js/app.js')%}
+
+        {% endblock %}
     {{ assets.js() }}
 
 {% endblock head%}
@@ -293,19 +271,8 @@ class __TwigTemplate_688bec0110d1ae505cf80da2613e686b0f408e422bc1386860f1a0a8c7a
 <body id=\"top\" class=\"{{ page.header.body_classes }}\">
 
 {% block header %}
-    <div class=\"header\">
-        <div class=\"wrapper padding\">
-            <a class=\"logo left\" href=\"{{ base_url == '' ? '/' : base_url }}\">
-                <i class=\"fa fa-rebel\"></i>
-                {{ config.site.title }}
-            </a>
-            {% block header_navigation %}
-            <nav class=\"main-nav\">
-                {% include 'partials/navigation.html.twig' %}
-            </nav>
-            {% endblock %}
-        </div>
-    </div>
+        {% include 'partials/header.html.twig' %}
+
 {% endblock %}
 
 {% block body %}
