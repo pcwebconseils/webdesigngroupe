@@ -1,18 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb0a0a11-5940-448f-80b2-80df38fc376b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/25/5b35333531646664343666386236393165313632313430353934363164666465305d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/cache/gpm/25/5b35333531646664343666386236393165313632313430353934363164666465305d5b315d.doctrinecache.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/42/5b31636638313231396239646631393132623932376631616133633038353037635d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/cache/gpm/42/5b31636638313231396239646631393132623932376631616133633038353037635d5b315d.doctrinecache.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/gpm/fe/5b30636239643637323332666133333532366632316231346261336438343032315d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/cache/gpm/fe/5b30636239643637323332666133333532366632316231346261336438343032315d5b315d.doctrinecache.data" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/af/affbd71f9b67db3527f85bc226527c53ff18b1dadfa2d10d48636e571597002e.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/af/affbd71f9b67db3527f85bc226527c53ff18b1dadfa2d10d48636e571597002e.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/e6/e6887a46b4b899332f70153e81d1ef16e1926c6d9a3fe41c8cc3c58e880a45ea.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" afterDir="false" />
-    </list>
+    <list default="true" id="cb0a0a11-5940-448f-80b2-80df38fc376b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -239,11 +228,18 @@
       <option name="project" value="LOCAL" />
       <updated>1553433964742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add user">
+      <created>1553509831332</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1553509831332</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22217000" />
+    <option name="totallyTimeSpent" value="22474000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -341,7 +337,8 @@
     <MESSAGE value="start achitecture" />
     <MESSAGE value="change moduar files" />
     <MESSAGE value="change config and metadata" />
-    <option name="LAST_COMMIT_MESSAGE" value="change config and metadata" />
+    <MESSAGE value="add user" />
+    <option name="LAST_COMMIT_MESSAGE" value="add user" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
