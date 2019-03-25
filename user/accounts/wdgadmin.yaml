@@ -1,0 +1,9 @@
+email: wdg@wdg.fr
+access:
+  admin:
+    login: true
+    super: true
+fullname: team
+title: teamAdmin
+state: enabled
+hashed_password: $2y$10$MJmTJSRXY6r9KFEBMdgEJurwA1iVz/jJwoIVOX.QzLl1WMHTVygee
