@@ -1,6 +1,6 @@
 ---
 title: WebDesignGroupe l'Agence du Digitale
-menu: Home
+menu: Accueil
 onpage_menu: true
 body_classes: "modular header-image fullwidth"
 
