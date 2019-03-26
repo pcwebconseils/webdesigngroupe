@@ -23,6 +23,7 @@
 
     {% block javascripts %}
         {% do assets.addJs('jquery', 100) %}
+        {% do assets.addJs('theme://js/app.js', 98) %}
     {% endblock %}
     {{ assets.js() }}
 
@@ -33,10 +34,10 @@
 {% block header %}
     <div class="header">
         <div class="wrapper padding">
-            <a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
+            {#<a class="logo left" href="{{ base_url == '' ? '/' : base_url }}">
                 <i class="fa fa-rebel"></i>
                 {{ config.site.title }}
-            </a>
+            </a>#}
             {% block header_navigation %}
             <nav class="main-nav">
                 {% include 'partials/navigation.html.twig' %}

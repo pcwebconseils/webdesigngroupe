@@ -251,7 +251,7 @@ html, body {
     position: relative;
     float: right;
     margin-right: 10px;
-    margin-top: 5px;
+    margin-top: -10px;
     cursor: pointer;
 }
 
@@ -289,6 +289,9 @@ html, body {
     background-color: #f1c40f;
     width: 200px; 
     border-radius: 8px;
+    z-index: 1;
+    position: absolute;
+    margin-top: 36px;
 }
 
 .menu a {
@@ -316,4 +319,8 @@ html, body {
 }
 .main-nav ul li {
     display: block;
+}
+
+.main-nav {
+    height: 20px;
 }
