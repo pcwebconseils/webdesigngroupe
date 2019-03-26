@@ -11,20 +11,10 @@
 
 
 
-                {#{% block navigation %}#}
-                    {#{% include 'partials/navigation.html.twig' %}#}
-                {#{% endblock %}#}
+                {% block navigation %}
+                    {% include 'partials/navigation.html.twig' %}
+                {% endblock %}
     {#</div>#}
-    <div class="toggle_btn">
-        <span></span>
-    </div>
-        <div class="menu nav">
-            <a href="#" class="logo">Mon logo</a>
-            <a href="#">itém 1</a>
-            <a href="#">itém 2</a>
-            <a href="#">itém 3</a>
-            <a href="#">itém 4</a>
-            <a href="#">itém 5</a>
-        </div>
+
     {% endblock %}
 </div>
